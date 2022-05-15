@@ -9,4 +9,3 @@ set foldmethod=syntax
 set smarttab
 set autoindent
 set mouse=r
-set cursorline
