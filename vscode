@@ -44,5 +44,21 @@
         "args": {
           "after": ["5", "j"]
         }
-    }
+    },
+    {
+        "key": "[",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Normal'",
+        "args": {
+          "after": ["o", "<ESC>"]
+        }
+    },
+    {
+        "key": "]",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Normal'",
+        "args": {
+          "after": ["O", "<ESC>"]
+        }
+    },
 ]
