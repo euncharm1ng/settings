@@ -9,3 +9,5 @@ set foldmethod=syntax
 set smarttab
 set autoindent
 set mouse=r
+noremap <C-k> 5k
+noremap <C-j> 5j
