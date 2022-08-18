@@ -11,3 +11,5 @@ set autoindent
 set mouse=r
 noremap <C-k> 5k
 noremap <C-j> 5j
+noremap [ o<ESC>
+noremap ] O<ESC>
