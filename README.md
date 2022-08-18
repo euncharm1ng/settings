@@ -10,3 +10,11 @@ vscode vim extension setting:
 vim:Foldfix
 - [X] Uses a hack to move around folds properly
 ```
+
+Add the following lines into "Editor: Token Color Customizations" setting, inside settings.json file.
+```
+"workbench.colorCustomizations": {
+    "editor.selectionBackground": "#135564",
+    "editor.selectionHighlightBackground": "#135564"
+},
+```
