@@ -9,6 +9,7 @@ noremap <C-k> 5k
 noremap <C-j> 5j
 noremap [ o<ESC>
 noremap ] O<ESC>
+nnoremap <f2> o/* chkp */<cr>
 " Highlight all instances of word under cursor, when idle.
 " Useful when studying strange source code.
 " Type z/ to toggle highlighting on/off.
