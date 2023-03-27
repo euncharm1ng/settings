@@ -1,4 +1,6 @@
 // Place your key bindings in this file to override the defaultsauto[]
+// https://stackoverflow.com/questions/42796887/switch-focus-between-editor-and-integrated-terminal
+// Preferences: Open Keyboard Shortcuts (JSON)
 [
     {
         "key": "ctrl+c",
