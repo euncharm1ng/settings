@@ -34,7 +34,7 @@
     {
         "key": "ctrl+k",
         "command": "vim.remap",
-        "when": "inputFocus && vim.mode == 'Normal'",
+        "when": "inputFocus",
         "args": {
           "after": ["5", "k"]
         }
@@ -42,7 +42,7 @@
     {
         "key": "ctrl+j",
         "command": "vim.remap",
-        "when": "inputFocus && vim.mode == 'Normal'",
+        "when": "inputFocus",
         "args": {
           "after": ["5", "j"]
         }
