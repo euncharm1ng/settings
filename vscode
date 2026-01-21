@@ -50,7 +50,7 @@
     {
         "key": "[",
         "command": "vim.remap",
-        "when": "inputFocus && vim.mode == 'Normal'",
+        "when": "editorTextFocus && vim.active && vim.mode == 'Normal'",
         "args": {
           "after": ["o", "<ESC>"]
         }
@@ -58,9 +58,13 @@
     {
         "key": "]",
         "command": "vim.remap",
-        "when": "inputFocus && vim.mode == 'Normal'",
+        "when": "editorTextFocus && vim.active && vim.mode == 'Normal'",
         "args": {
           "after": ["O", "<ESC>"]
         }
+    },
+    {
+        "key": "ctrl+cmd+b",
+        "command": "workbench.action.toggleAuxiliaryBar"
     },
 ]
