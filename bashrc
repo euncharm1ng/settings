@@ -11,3 +11,4 @@ llg() {
         ls -ald --group-directories-first [!.]* 2>/dev/null
     )
 }
+alias tmuxlog='tmux list-panes -a -F "#{session_name}:#{window_index}.#{pane_index} [#{?pane_pipe,LOGGING,off}]"'
