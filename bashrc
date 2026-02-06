@@ -6,9 +6,9 @@ llg() {
     (
         cd "$dir" || exit
                 pwd
-        ls -ald --group-directories-first .* 2>/dev/null
+        ls -aldh --group-directories-first .* 2>/dev/null
         echo ----------------------------------------
-        ls -ald --group-directories-first [!.]* 2>/dev/null
+        ls -aldh --group-directories-first [!.]* 2>/dev/null
     )
 }
 alias tmuxlog='tmux list-panes -a -F "#{session_name}:#{window_index}.#{pane_index} [#{?pane_pipe,LOGGING,off}]"'
